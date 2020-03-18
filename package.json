@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5",
+    "session-file-store": "^1.4.0"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js -e js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
